@@ -2,8 +2,7 @@ import { useState, useEffect, useMemo, useCallback } from "react";
 import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Legend } from "recharts";
 import { Plus, Wallet, TrendingUp, TrendingDown, X, IndianRupee, LayoutDashboard, List, Target, Sparkles, AlertCircle, ArrowUpCircle, ArrowDownCircle, Trash2, LogOut } from "lucide-react";
 import { transactionsAPI, budgetsAPI } from "./api";
-import AuthPage from "./AuthPage";
-
+import AuthPage from "./AuthPage.jsx";
 const CATEGORIES = ["Food","Transport","Education","Entertainment","Utilities","Health","Shopping","Others"];
 const CAT_COLORS = { Food:"#00B4D8", Transport:"#0077B6", Education:"#F59E0B", Entertainment:"#8B5CF6", Utilities:"#10B981", Health:"#EF4444", Shopping:"#EC4899", Others:"#64748B" };
 const fmt = (n) => "₹" + Number(n).toLocaleString("en-IN");
