@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { authAPI } from "../api";
+import { authAPI } from "./api";
 import {
   Wallet, Mail, Lock, User, Eye, EyeOff, AlertCircle, ArrowRight, Sparkles
 } from "lucide-react";
