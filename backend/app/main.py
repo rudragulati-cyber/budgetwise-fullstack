@@ -10,7 +10,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "http://localhost:3000",
-        "https://*.vercel.app",
+        "https://budgetwise-fullstack.vercel.app",
     ],
     allow_origin_regex=r"https://.*\.vercel\.app",
     allow_credentials=True,
